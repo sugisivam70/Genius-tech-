@@ -1,127 +1,522 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Creatfix Hero</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-</head>
-<body>
-  <header class="navbar">
-    <div class="container">
-      <div class="logo">
-        <img src="logo.png" alt="Creatfix" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Genius Tech</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container">
+        <!-- ...existing code... -->
+        <div class="logo">
+          <img src="logo.png" alt="Genius" />
+        </div>
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <nav class="nav-links">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Product</a>
+          <a href="#">Machines</a>
+          <a href="#">Service</a>
+          <a href="#">Work</a>
+        </nav>
+        <!-- ...existing code... -->
+        <!-- ...existing code... -->
       </div>
-      <nav class="nav-links">
-        <a href="#">Home</a>
-        <a href="#">Product</a>
-        <a href="#">Machines</a>
-        <a href="#">Service</a>
-        <a href="#">Work</a>
-      </nav>
-    </div>
-  </header>
+    </header>
 
-  <section class="hero">
-    <div class="container hero-content">
-      <div class="text">
-        <h1>
-          Boosts The <br />
-          <span class="highlight">Precision</span> of <br />
-          Your Production
-        </h1>
-        <p>
-          Partner with us to achieve unmatched machining accuracy 
-          and manufacturing efficiency through advanced CNC solutions.
-          Our expertise in precision engineering ensures your projects are completed to the highest standards,
-        </p>
-        <div class="buttons">
-          <a href="#" class="btn-primary">Join for free</a>
-          <a href="#" class="btn-secondary">Learn more</a>
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="text">
+          <h1>
+            Boosts The <br />
+            <span class="highlight">Precision</span> of <br />
+            Your Production
+          </h1>
+          <p>
+            Partner with us to achieve unmatched machining accuracy and
+            manufacturing efficiency through advanced CNC solutions.
+            <br />
+          </p>
+          <div class="buttons">
+            <a href="#" class="btn-primary">Join for free</a>
+            <a href="#" class="btn-secondary">Learn more</a>
+          </div>
+        </div>
+        <div class="image">
+          <img
+            src="https://cdn.pixabay.com/photo/2017/08/30/07/50/cnc-2692020_1280.jpg"
+            alt="Architecture Design"
+          />
         </div>
       </div>
-      <div class="image">
-        <img src="img/artur-kechter-QAp7VQOmcLE-unsplash.jpg" alt="Architecture Design" />
+    </section>
+    <section class="about-section">
+      <div class="about-container">
+        <div class="about-image">
+          <img
+            src="images/project-timeline-phone.png"
+            alt="Project Timeline Mockup"
+          />
+        </div>
+        <div class="about-content">
+          <p class="section-label">About Us</p>
+          <h2>
+            We <span class="highlight">Come</span> with an <br />Innovative
+            <span class="highlight">Approach</span>
+          </h2>
+          <p class="description">
+            Timeline Project is a project management solution designed to help
+            teams and individuals manage projects more efficiently starting from
+            proper planning and structured execution.
+          </p>
+          <p class="description small">
+            Our vision is to be the leading project management platform relied
+            upon by various industries around the world.
+          </p>
+          <a href="#" class="btn">Explore More</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <section class="about-section">
+      <div class="about-text">
+        <h5 class="label">What is Genetic CNC?</h5>
+        <p>
+          <span class="highlight">Genetic CNC</span> is a modern CNC
+          manufacturing company utilizing advanced machinery and automation to
+          deliver high-precision components across industries. Our smart
+          processes and quality controls help clients optimize production and
+          achieve engineering excellence.
+        </p>
 
-
-  <section class="features-section">
-    <div class="features-header">
-      <div class="feature-heading">
-        <div><h2>Features that our CNC company provides for you</h2></div>
-        <div><p>We always ensure precision, efficiency, and client satisfaction in every CNC machining project</p></div>
+        <div class="tags">
+          <span>Precision</span>
+          <span>Automation</span>
+          <span>Industrial</span>
+          <span>Metalworks</span>
+          <span>Prototyping</span>
+        </div>
       </div>
-      
-    </div>
-    <div class="features-container">
-      <div class="feature-card">
-        <div class="icon"><i class="fas fa-bolt"></i></div>
-        <h3>Rapid Prototyping</h3>
-        <p>Parts are produced with precision and delivered quickly using modern CNC tools.</p>
-        <a href="#">Read more</a>
-      </div>
-      <div class="feature-card">
-         <div class="icon"><i class="fas fa-cogs"></i></div>
-        <h3>Precision Engineering</h3>
-        <p>Each component is machined to exact tolerances to meet the highest standards.</p>
-        <a href="#">Read more</a>
-      </div>
-      <div class="feature-card">
-         <div class="icon"><i class="fas fa-industry"></i></div>
-        <h3>Advanced Automation</h3>
-        <p>Our machines use AI-driven automation for complex part production and consistency.</p>
-        <a href="#">Read more</a>
-      </div>
-    </div>
-  </section>
 
-
-
-  <section class="product-section">
-    <h2 class="section-title">Our CNC Solutions</h2>
-    <p class="section-subtitle">Explore our range of CNC machinery and solutions crafted for precision and reliability.</p>
-
-    <div class="tabs">
-      <button class="tab active">Popular</button>
-      <button class="tab">All Categories</button>
-      <button class="tab">Milling</button>
-      <button class="tab">Turning</button>
-      <button class="tab">Automation</button>
-    </div>
-
-    <div class="product-cards">
-      <div class="card">
-        <img src="img/cnc-milling.jpg" alt="CNC Milling Machine">
-        <h3>CNC Milling Machine</h3>
-        <p>High-speed vertical machining centers for high-precision milling operations.</p>
-        <a href="#">See More</a>
+      <div class="ctc-section">
+        <div class="about-cta">
+          <div class="cta-image">
+            <img src="your-machine-image.png" alt="CNC machine image" />
+          </div>
+          <div class="cta-text">
+            <h6>CTA</h6>
+            <p>
+              <span class="highlight-alt">Start</span> your project with Genetic
+              CNC and experience innovative machining solutions that make your
+              <span class="highlight-alt">engineering</span> journey smarter,
+              faster, and more precise!
+            </p>
+            <a href="#" class="btn-cta">Start with Genetic CNC →</a>
+          </div>
+        </div>
       </div>
-      <div class="card">
-        <img src="img/cnc-lathe.jpg" alt="CNC Lathe">
-        <h3>CNC Lathe</h3>
-        <p>Automated turning solutions for cylindrical and complex parts with accuracy.</p>
-        <a href="#">See More</a>
+      <div class="ctc-section2">
+        <div class="about-cta">
+          <div class="cta-text">
+            <h6>CTA</h6>
+            <p>
+              <span class="highlight-alt">Start</span> your project with Genetic
+              CNC and experience innovative machining solutions that make your
+              <span class="highlight-alt">engineering</span> journey smarter,
+              faster, and more precise!
+            </p>
+            <a href="#" class="btn-cta">Start with Genetic CNC →</a>
+          </div>
+          <div class="cta-image">
+            <img src="your-machine-image.png" alt="CNC machine image" />
+          </div>
+        </div>
       </div>
-      <div class="card">
-        <img src="img/automation.jpg" alt="CNC Automation">
-        <h3>Robotic Automation</h3>
-        <p>Integrate robotic arms and smart handling systems to scale your CNC workflow.</p>
-        <a href="#">See More</a>
-      </div>
-      <div class="card">
-        <img src="img/tool-holder.jpg" alt="Tool Holders">
-        <h3>Tool Holders</h3>
-        <p>Durable and precise tool holders compatible with all major CNC systems.</p>
-        <a href="#">See More</a>
-      </div>
-    </div>
-  </section>
+    </section>
 
-</body>
+    <section class="product-section">
+      <h2 class="Product-title">Our CNC Solutions</h2>
+      <p class="section-subtitle">
+        Explore our range of CNC machinery and solutions crafted for precision
+        and reliability.
+      </p>
+
+      <div class="tabs">
+        <button class="tab active">Popular</button>
+        <button class="tab">All Categories</button>
+        <button class="tab">Milling</button>
+        <button class="tab">Turning</button>
+        <button class="tab">Automation</button>
+      </div>
+
+      <div class="product-cards">
+        <div class="card">
+          <img src="img/cnc-milling.jpg" alt="CNC Milling Machine" />
+          <h3>CNC Milling Machine</h3>
+          <p>
+            High-speed vertical machining centers for high-precision milling
+            operations.
+          </p>
+          <a href="#">See More</a>
+        </div>
+        <div class="card">
+          <img src="img/cnc-lathe.jpg" alt="CNC Lathe" />
+          <h3>CNC Lathe</h3>
+          <p>
+            Automated turning solutions for cylindrical and complex parts with
+            accuracy.
+          </p>
+          <a href="#">See More</a>
+        </div>
+        <div class="card">
+          <img src="img/automation.jpg" alt="CNC Automation" />
+          <h3>Robotic Automation</h3>
+          <p>
+            Integrate robotic arms and smart handling systems to scale your CNC
+            workflow.
+          </p>
+          <a href="#">See More</a>
+        </div>
+        <div class="card">
+          <img src="img/tool-holder.jpg" alt="Tool Holders" />
+          <h3>Tool Holders</h3>
+          <p>
+            Durable and precise tool holders compatible with all major CNC
+            systems.
+          </p>
+          <a href="#">See More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-section">
+      <p class="section-label">Features</p>
+      <h2 class="section-title">
+        Stepping <span>Together</span> Towards the Success of
+        <span>Your Project</span>
+      </h2>
+
+      <div class="features-grid">
+        <div class="feature-box">
+          <div class="feature-icon">
+            <!-- Cloudflare-style SVG icon -->
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              fill="#2974ff"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 17H21C21.55 17 22 17.45 22 18C22 18.55 21.55 19 21 19H3C2.45 19 2 18.55 2 18C2 17.45 2.45 17 3 17Z"
+              />
+              <path
+                d="M6.4 13.2C7.34 10.34 10.14 8.5 13.2 8.5C15.74 8.5 18.04 10.04 18.96 12.26C19.22 12.88 18.76 13.5 18.1 13.5H7C6.58 13.5 6.2 13.39 6.4 13.2Z"
+              />
+              <path
+                d="M12.5 6C10.61 6 8.94 7.05 8.03 8.65C7.75 9.13 7.24 9.5 6.63 9.5C5.45 9.5 4.5 10.45 4.5 11.63C4.5 12.8 5.45 13.75 6.63 13.75H18.13C18.9 13.75 19.5 14.35 19.5 15.13C19.5 15.91 18.9 16.5 18.13 16.5H5.63C3.57 16.5 2 14.93 2 12.88C2 10.83 3.57 9.25 5.63 9.25C5.99 7.2 7.93 5.5 10.25 5.5C11.23 5.5 12.13 5.76 12.9 6.2C13.18 6.36 13.29 6.7 13.13 6.98C12.98 7.25 12.64 7.36 12.36 7.21C11.79 6.9 11.15 6.75 10.5 6.75C9.26 6.75 8.1 7.51 7.59 8.64C7.38 9.1 6.92 9.5 6.38 9.5C5.74 9.5 5.25 10 5.25 10.63C5.25 11.26 5.74 11.75 6.38 11.75H17.38C17.69 11.75 18 11.45 18 11.13C18 10.8 17.69 10.5 17.38 10.5H6.63C5.56 10.5 4.75 9.69 4.75 8.63C4.75 7.56 5.56 6.75 6.63 6.75C7.25 6.75 7.77 6.5 8.13 6.08C9.25 4.88 10.88 4 12.63 4C13.12 4 13.59 4.05 14.03 4.15C14.42 4.23 14.64 4.65 14.51 5.03C14.38 5.41 13.96 5.64 13.58 5.52C13.16 5.4 12.68 5.35 12.2 5.35C11.44 5.35 10.72 5.56 10.1 5.95C10.07 5.96 10.04 5.98 10 6H12.5Z"
+              />
+            </svg>
+          </div>
+          <h3>Cloud-Integrated CNC</h3>
+          <p>
+            Monitor live job performance, tooling status, and updates from any
+            device using our secure cloud sync.
+          </p>
+        </div>
+
+        <!-- Duplicate other boxes below as needed -->
+      </div>
+    </section>
+
+    <section class="features-section">
+      <div class="features-header">
+        <div class="feature-heading">
+          <div><h2>Features that our CNC company provides for you</h2></div>
+          <div>
+            <p>
+              We always ensure precision, efficiency, and client satisfaction in
+              every CNC machining project
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="features-container">
+        <div class="feature-card">
+          <div class="icon"><i class="fas fa-bolt"></i></div>
+          <h3>Rapid Prototyping</h3>
+          <p>
+            Parts are produced with precision and delivered quickly using modern
+            CNC tools.
+          </p>
+          <a href="#">Read more</a>
+        </div>
+        <div class="feature-card">
+          <div class="icon"><i class="fas fa-cogs"></i></div>
+          <h3>Precision Engineering</h3>
+          <p>
+            Each component is machined to exact tolerances to meet the highest
+            standards.
+          </p>
+          <a href="#">Read more</a>
+        </div>
+        <div class="feature-card">
+          <div class="icon"><i class="fas fa-industry"></i></div>
+          <h3>Advanced Automation</h3>
+          <p>
+            Our machines use AI-driven automation for complex part production
+            and consistency.
+          </p>
+          <a href="#">Read more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-section">
+      <p class="section-label">Features</p>
+      <h2 class="section-title">
+        Stepping Together
+        <span>Towards the Success</span>
+        <span>of Your Project</span>
+      </h2>
+
+      <div class="features-grid">
+        <div class="feature-box">
+          <div class="feature-icon"><i class="fas fa-bullseye"></i></div>
+          <h3>Precision Machining</h3>
+          <p>
+            Maintain exact tolerances across all CNC parts, ensuring unmatched
+            accuracy for critical components.
+          </p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon"><i class="fas fa-handshake"></i></div>
+          <h3>Easy Collaboration</h3>
+          <p>
+            Seamlessly work with clients, engineers, and designers to refine
+            product details and specs.
+          </p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon">
+            <i class="fas fa-screwdriver-wrench"></i>
+          </div>
+          <h3>Flexible Fabrication</h3>
+          <p>
+            Customize machining tasks with material choices, tooling setups, and
+            prototype revisions.
+          </p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon"><i class="fas fa-calendar-alt"></i></div>
+          <h3>Scheduling Integration</h3>
+          <p>
+            Keep production on track by syncing project timelines with your
+            internal operations calendar.
+          </p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon"><i class="fas fa-bell"></i></div>
+          <h3>Smart Alerts</h3>
+          <p>
+            Get automated updates on machine cycles, part readiness, and quality
+            status.
+          </p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon"><i class="fas fa-chart-bar"></i></div>
+          <h3>Project Reports</h3>
+          <p>
+            Access detailed job summaries and performance reports to enhance
+            productivity decisions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cnc-awareness-section">
+      <div class="awareness-container">
+        <div class="awareness-text">
+          <h2>
+            The more familiar a
+            <span class="highlight">client is with your CNC brand</span>, the
+            more likely they are to partner
+          </h2>
+          <p>
+            A strong CNC brand presence helps differentiate you in a competitive
+            manufacturing landscape.
+          </p>
+          <a href="#" class="btn-primary">Get a Free Quote</a>
+        </div>
+        <div class="awareness-image">
+          <img src="your-cnc-image.jpg" alt="CNC Machines" />
+          <div class="counter-box">
+            <i class="fas fa-clock"></i>
+            <span><strong>367</strong> Projects</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cnc-services-section">
+      <div class="services-header">
+        <h3>What we will do for your Manufacturing Business</h3>
+        <p>
+          From design to production, we offer solutions that help your business
+          evolve and grow.
+        </p>
+        <a href="#" class="learn-more"
+          >Learn more <i class="fas fa-arrow-right"></i
+        ></a>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="icon-box"><i class="fas fa-drafting-compass"></i></div>
+          <h4>Precision Engineering</h4>
+          <p>
+            We specialize in high-accuracy parts and prototypes for industrial
+            applications.
+          </p>
+        </div>
+        <div class="service-card">
+          <div class="icon-box"><i class="fas fa-cogs"></i></div>
+          <h4>Mass Production</h4>
+          <p>
+            Scalable CNC machining to fulfill small to bulk production
+            requirements with tight deadlines.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial-section">
+      <p class="section-label">Testimonial</p>
+      <h2 class="section-title">
+        What <span class="highlight-blue">Do</span> They Say
+        <span class="highlight-blue">About Us?</span>
+      </h2>
+
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <img src="person1.jpg" alt="User 1" />
+          <h4>Reza Agung</h4>
+          <p>
+            "Coordination between teams is faster and easier because everyone
+            can see the project progress."
+          </p>
+          <div class="stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="person2.jpg" alt="User 2" />
+          <h4>Insani Abdan</h4>
+          <p>
+            "It helps me to keep track easily, especially when managing multiple
+            projects."
+          </p>
+          <div class="stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="person3.jpg" alt="User 3" />
+          <h4>Nabhan Daiman</h4>
+          <p>
+            "Setting project deadlines is more practical and visible in the
+            timeline."
+          </p>
+          <div class="stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="person4.jpg" alt="User 4" />
+          <h4>Layabghiyan</h4>
+          <p>
+            "With the simple timeline view, I can see what's happening at every
+            stage."
+          </p>
+          <div class="stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="person5.jpg" alt="User 5" />
+          <h4>Nadir Zidan</h4>
+          <p>"The UI is intuitive and essential for our company."</p>
+          <div class="stars">★★★★★</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-left">
+        <p>Ready to get started?</p>
+        <button class="download-btn">Download →</button>
+      </div>
+
+      <div class="footer-columns">
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li>Email Marketing</li>
+            <li>Campaigns</li>
+            <li>Branding</li>
+            <li>Offline</li>
+          </ul>
+        </div>
+        <div>
+          <h4>About</h4>
+          <ul>
+            <li>Our Story</li>
+            <li>Benefits</li>
+            <li>Team</li>
+            <li>Careers</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Help</h4>
+          <ul>
+            <li>FAQs</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>Terms & Conditions</p>
+        <p>Privacy Policy</p>
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
